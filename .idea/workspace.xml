@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29095dbe-1a5d-4602-9fd3-ab699778e55f" name="Default Changelist" comment="" />
+    <list default="true" id="29095dbe-1a5d-4602-9fd3-ab699778e55f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/ExecutorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/ExecutorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/net/htlgrieskirchen/pos3/pcp/ExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/htlgrieskirchen/pos3/pcp/ExecutorTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TFCOAiaaqW7POdMAwkB1dCttWY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -30,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ExecutorTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.htlgrieskirchen.pos3.pcp.Main" />
       <module name="lpilic17_ProducerConsumerProblem" />
@@ -53,10 +66,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExecutorTest.testRun5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lpilic17_ProducerConsumerProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.htlgrieskirchen.pos3.pcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.htlgrieskirchen.pos3.pcp" />
+      <option name="MAIN_CLASS_NAME" value="net.htlgrieskirchen.pos3.pcp.ExecutorTest" />
+      <option name="METHOD_NAME" value="testRun5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ExecutorTest" />
+      <item itemvalue="JUnit.ExecutorTest.testRun5" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExecutorTest.testRun5" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,15 +106,27 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/net/htlgrieskirchen/pos3/pcp/ExecutorTest.java</url>
-          <line>135</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lpilic17_ProducerConsumerProblem$ExecutorTest_testRun5.ic" NAME="ExecutorTest.testRun5 Coverage Results" MODIFIED="1573053259866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>net.htlgrieskirchen.pos3.pcp.*</FILTER>
+    </SUITE>
   </component>
 </project>

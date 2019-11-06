@@ -29,22 +29,15 @@ public class Producer implements Runnable {
     public void run() {
         for(int i = 0; i < numberOfItems; ++i)
         {
-            if(storage.put(i))
+            while(!storage.put(i))
             {
-                sent.add(i);
-            }
-            else
-            {
-                try
-                {
+                try {
                     Thread.sleep(sleepTime);
-                    i--;
-                }
-                catch (InterruptedException e)
-                {
+                } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
+            sent.add(i);
         }
         storage.setProductionComplete();
     }

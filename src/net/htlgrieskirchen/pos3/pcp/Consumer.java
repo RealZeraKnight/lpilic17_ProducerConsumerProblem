@@ -29,16 +29,23 @@ public class Consumer implements Runnable {
     @Override
     public void run()
     {
-        while(!storage.isProductionComplete() || storage.getStoredCounter() > 0) {
-            received.add(storage.get());
-
+        if(storage.getStoredCounter() <= 0)
+        {
+            running = false;
         }
-        try {
+        else
+        {
+            running = true;
+        }
+        while(!storage.isProductionComplete() || running) {
+            received.add(storage.get());
+        }
+        try
+        {
             Thread.sleep(sleepTime);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 
     public List<Integer> getReceived() {

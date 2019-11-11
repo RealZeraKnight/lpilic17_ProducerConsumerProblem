@@ -5,12 +5,14 @@
  */
 package net.htlgrieskirchen.pos3.pcp;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import static org.junit.Assert.*;
-import org.junit.Test;
+
 
 /**
  *

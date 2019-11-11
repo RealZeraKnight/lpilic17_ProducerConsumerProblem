@@ -31,13 +31,24 @@ public class Producer implements Runnable {
         {
             while(!storage.put(i))
             {
-                try {
+                try
+                {
                     Thread.sleep(sleepTime);
-                } catch (InterruptedException e) {
+                }
+                catch (InterruptedException e)
+                {
                     e.printStackTrace();
                 }
             }
             sent.add(i);
+        }
+        while(!storage.isEmpty())
+        {
+            try {
+                Thread.sleep(sleepTime);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
         storage.setProductionComplete();
     }

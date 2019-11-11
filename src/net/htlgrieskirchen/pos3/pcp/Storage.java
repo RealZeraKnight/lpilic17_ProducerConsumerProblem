@@ -46,13 +46,14 @@ public class Storage
             storedCounter++;
         }
         return true;
+
     }
  
     public synchronized Integer get() {
         if(queue.isEmpty())
         {
             underflowCounter++;
-
+            return null;
         }
         else
         {
@@ -86,5 +87,10 @@ public class Storage
 
     public int getOverflowCounter() {
         return overflowCounter;
+    }
+
+    public boolean isEmpty()
+    {
+        return queue.isEmpty();
     }
 }

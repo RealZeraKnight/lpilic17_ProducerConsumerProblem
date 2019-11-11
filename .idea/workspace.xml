@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29095dbe-1a5d-4602-9fd3-ab699778e55f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/net/htlgrieskirchen/pos3/pcp/ExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/net/htlgrieskirchen/pos3/pcp/ExecutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/ExecutorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/ExecutorTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573067275556</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changed code in method-run in classes producer, consumer and storage">
+      <created>1573462977077</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573462977077</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +157,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed code in method-run in classes producer and consumer" />
     <MESSAGE value="changed code in method-run in classes producer and consumer again" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed code in method-run in classes producer and consumer again" />
+    <MESSAGE value="changed code in method-run in classes producer, consumer and storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed code in method-run in classes producer, consumer and storage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -16,11 +16,11 @@ public class Main
         Dagger d4 = new Dagger();
         Dagger d5 = new Dagger();
 
-        Ork o1 = new Ork(d5,d1);
-        Ork o2 = new Ork(d1,d2);
-        Ork o3 = new Ork(d2,d3);
-        Ork o4 = new Ork(d3,d4);
-        Ork o5 = new Ork(d4,d5);
+        Ork o1 = new Ork("Ork-1",d5,d1);
+        Ork o2 = new Ork("Ork-2",d1,d2);
+        Ork o3 = new Ork("Ork-3",d2,d3);
+        Ork o4 = new Ork("Ork-4",d3,d4);
+        Ork o5 = new Ork("Ork-5",d4,d5);
 
 
         ExecutorService es = Executors.newFixedThreadPool(5);

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29095dbe-1a5d-4602-9fd3-ab699778e55f" name="Default Changelist" comment="">
+    <list default="true" id="29095dbe-1a5d-4602-9fd3-ab699778e55f" name="Default Changelist" comment="quicksave">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lpilic17_ProducerConsumerProblem/net/htlgrieskirchen/pos3/pcp/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue2/Ork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue2/Ork.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ue1_Main">
+  <component name="RunManager" selected="Application.ue2_Main">
     <configuration name="ue1_Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.htlgrieskirchen.pos3.pcp.Main" />
       <module name="lpilic17_ProducerConsumerProblem" />
@@ -190,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573547918393</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="quicksave">
+      <created>1573547965955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573547965955</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,10 +222,10 @@
     <MESSAGE value="changed code in method-run in classes producer and consumer" />
     <MESSAGE value="changed code in method-run in classes producer and consumer again" />
     <MESSAGE value="changed code in method-run in classes producer, consumer and storage" />
-    <MESSAGE value="quicksave" />
     <MESSAGE value="started ue2 and created 3 new classes with code in it" />
     <MESSAGE value="finished ue2 and fixed ue1" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished ue2 and fixed ue1" />
+    <MESSAGE value="quicksave" />
+    <option name="LAST_COMMIT_MESSAGE" value="quicksave" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

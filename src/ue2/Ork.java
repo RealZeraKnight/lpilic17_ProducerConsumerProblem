@@ -2,12 +2,13 @@ package ue2;
 
 public class Ork implements Runnable
 {
-    public Dagger leftDagger;
-    public Dagger rightDagger;
+    private Dagger leftDagger;
+    private Dagger rightDagger;
+    private String name;
 
-
-    public Ork(Dagger leftDagger, Dagger rightDagger)
+    public Ork(String name, Dagger leftDagger, Dagger rightDagger)
     {
+        this.name = name;
         this.leftDagger = leftDagger;
         this.rightDagger = rightDagger;
     }
@@ -44,7 +45,7 @@ public class Ork implements Runnable
         {
             e.printStackTrace();
         }
-        System.out.println(this+": Finished drinking!");
+        System.out.println(name+": Finished drinking!");
 
     }
 
@@ -60,7 +61,7 @@ public class Ork implements Runnable
         {
             e.printStackTrace();
         }
-        System.out.println(this+": Finished feasting!");
+        System.out.println(name+": Finished feasting!");
 
     }
 
@@ -76,7 +77,7 @@ public class Ork implements Runnable
         }
         rightDagger.setOwner(this);
         rightDagger.getRl().lock();
-        System.out.println(this+": My Right Dagger!");
+        System.out.println(name+": My Right Dagger!");
 
     }
 
@@ -92,21 +93,21 @@ public class Ork implements Runnable
         }
         leftDagger.setOwner(this);
         leftDagger.getRl().lock();
-        System.out.println(this+": My Left Dagger!");
+        System.out.println(name+": My Left Dagger!");
     }
 
     public void releaseLeftDagger()
     {
         leftDagger.setOwner(null);
         leftDagger.getRl().unlock();
-        System.out.println(this+": This Left Dagger is free!");
+        System.out.println(name+": This Left Dagger is free!");
     }
 
     public void releaseRightDagger()
     {
         rightDagger.setOwner(null);
         rightDagger.getRl().unlock();
-        System.out.println(this+": This Right Dagger is free!");
+        System.out.println(name+": This Right Dagger is free!");
     }
 
 }

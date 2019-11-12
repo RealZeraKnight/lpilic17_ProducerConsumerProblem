@@ -6,6 +6,8 @@
 package net.htlgrieskirchen.pos3.pcp;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 
@@ -29,14 +31,8 @@ public class Consumer implements Runnable {
     @Override
     public void run()
     {
-        try {
-            Thread.sleep(sleepTime);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         while(!storage.isProductionComplete() || running)
         {
-            running = !storage.isProductionComplete();
             received.add(storage.get());
             try
             {
@@ -46,7 +42,9 @@ public class Consumer implements Runnable {
             {
                 e.printStackTrace();
             }
+            running = !storage.isProductionComplete();
         }
+        received.removeAll(Collections.singleton(null));
     }
 
     public List<Integer> getReceived() {

@@ -58,7 +58,6 @@ public class Storage
         else
         {
             fetchedCounter++;
-            storedCounter--;
         }
         return queue.poll();
 

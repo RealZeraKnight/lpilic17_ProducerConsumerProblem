@@ -34,7 +34,7 @@ public class Ork implements Runnable
 
     public void drinking()
     {
-        int sleepTime = (int) (Math.random() * 100 + 1);
+        int sleepTime = (int) (Math.random() * 300 + 100);
 
         try
         {
@@ -44,12 +44,13 @@ public class Ork implements Runnable
         {
             e.printStackTrace();
         }
+        System.out.println(this+": Finished drinking!");
 
     }
 
     public void feasting()
     {
-        int sleepTime = (int) (Math.random() * 250 + 1);
+        int sleepTime = (int) (Math.random() * 1000 + 250);
 
         try
         {
@@ -59,48 +60,53 @@ public class Ork implements Runnable
         {
             e.printStackTrace();
         }
+        System.out.println(this+": Finished feasting!");
 
     }
 
     public void getRightDagger()
     {
-        while(rightDagger.getRl() != null && rightDagger.getRl().isLocked())
+        while(rightDagger.getOwner() != null && rightDagger.getRl().isLocked())
         {
             try {
-                Thread.sleep(20);
+                Thread.sleep(10);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
         rightDagger.setOwner(this);
         rightDagger.getRl().lock();
+        System.out.println(this+": My Right Dagger!");
 
     }
 
     public void getLeftDagger()
     {
-        while(leftDagger.getRl() != null && leftDagger.getRl().isLocked())
+        while(leftDagger.getOwner() != null && leftDagger.getRl().isLocked())
         {
             try {
-                Thread.sleep(20);
+                Thread.sleep(10);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
         leftDagger.setOwner(this);
         leftDagger.getRl().lock();
+        System.out.println(this+": My Left Dagger!");
     }
 
     public void releaseLeftDagger()
     {
         leftDagger.setOwner(null);
         leftDagger.getRl().unlock();
+        System.out.println(this+": This Left Dagger is free!");
     }
 
     public void releaseRightDagger()
     {
         rightDagger.setOwner(null);
         rightDagger.getRl().unlock();
+        System.out.println(this+": This Right Dagger is free!");
     }
 
 }

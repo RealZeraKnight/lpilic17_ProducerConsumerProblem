@@ -7,7 +7,6 @@ package net.htlgrieskirchen.pos3.pcp;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.Callable;
 
 public class Producer implements Runnable {
     private final String name;
@@ -50,6 +49,7 @@ public class Producer implements Runnable {
                 e.printStackTrace();
             }
         }
+
         storage.setProductionComplete();
     }
 

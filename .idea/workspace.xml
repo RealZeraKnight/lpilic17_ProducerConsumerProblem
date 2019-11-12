@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29095dbe-1a5d-4602-9fd3-ab699778e55f" name="Default Changelist" comment="quicksave">
-      <change afterPath="$PROJECT_DIR$/src/ue2/Dagger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ue2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ue2/Ork.java" afterDir="false" />
+    <list default="true" id="29095dbe-1a5d-4602-9fd3-ab699778e55f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/htlgrieskirchen/pos3/pcp/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ue2/Ork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ue2/Ork.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ue2_Main">
+  <component name="RunManager" selected="JUnit.ExecutorTest">
     <configuration name="ue1_Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.htlgrieskirchen.pos3.pcp.Main" />
       <module name="lpilic17_ProducerConsumerProblem" />
@@ -72,6 +74,22 @@
       <option name="PACKAGE_NAME" value="net.htlgrieskirchen.pos3.pcp" />
       <option name="MAIN_CLASS_NAME" value="net.htlgrieskirchen.pos3.pcp.ExecutorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorTest.testRun1_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lpilic17_ProducerConsumerProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.htlgrieskirchen.pos3.pcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.htlgrieskirchen.pos3.pcp" />
+      <option name="MAIN_CLASS_NAME" value="net.htlgrieskirchen.pos3.pcp.ExecutorTest" />
+      <option name="METHOD_NAME" value="testRun1_1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,9 +132,11 @@
       <item itemvalue="JUnit.ExecutorTest" />
       <item itemvalue="JUnit.ExecutorTest.testRun5" />
       <item itemvalue="JUnit.ExecutorTest.testRun4" />
+      <item itemvalue="JUnit.ExecutorTest.testRun1_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExecutorTest.testRun1_1" />
         <item itemvalue="JUnit.ExecutorTest.testRun4" />
         <item itemvalue="JUnit.ExecutorTest.testRun5" />
       </list>
@@ -161,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573463022991</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="started ue2 and created 3 new classes with code in it">
+      <created>1573544262284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573544262284</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,7 +209,8 @@
     <MESSAGE value="changed code in method-run in classes producer and consumer again" />
     <MESSAGE value="changed code in method-run in classes producer, consumer and storage" />
     <MESSAGE value="quicksave" />
-    <option name="LAST_COMMIT_MESSAGE" value="quicksave" />
+    <MESSAGE value="started ue2 and created 3 new classes with code in it" />
+    <option name="LAST_COMMIT_MESSAGE" value="started ue2 and created 3 new classes with code in it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

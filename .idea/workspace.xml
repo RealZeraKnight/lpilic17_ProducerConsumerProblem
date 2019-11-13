@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29095dbe-1a5d-4602-9fd3-ab699778e55f" name="Default Changelist" comment="" />
+    <list default="true" id="29095dbe-1a5d-4602-9fd3-ab699778e55f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ue2_Main">
+  <component name="RunManager" selected="Application.ue1_Main">
     <configuration name="ue1_Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.htlgrieskirchen.pos3.pcp.Main" />
       <module name="lpilic17_ProducerConsumerProblem" />
@@ -209,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573553621821</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="quicksave">
+      <created>1573553632488</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573553632488</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

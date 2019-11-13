@@ -31,7 +31,7 @@ public class Consumer implements Runnable {
     @Override
     public void run()
     {
-        while(!storage.isProductionComplete() || running)
+        while(running)
         {
             received.add(storage.get());
             try
